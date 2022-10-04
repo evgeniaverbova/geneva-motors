@@ -1,0 +1,60 @@
+.btn {
+    border: none !important;
+    color: $white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-radius: 5px;
+    
+        &_dropdown {
+                display: flex;
+                    &::after {
+                        content: url('/assets/images/langs/arrow.svg');
+                        display: inline-block;
+                        align-self: center;
+                        padding-left: 6px;
+        
+                    }
+        }
+
+        &__large {
+            padding: 20px 0;
+        }
+
+        &__bckgraund {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            background-color: rgba($black, .5);
+            border-radius: 50%;
+        }
+
+        &__form {
+            color: $darkgrey;
+            background: $lightgrey;
+            border: 1px solid $formborder;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            transition: .2s linear;
+
+                &::after {
+                    content: '';
+                    width: 0;
+                    height: 0;
+                    border-left: 5px solid #0000;
+                    border-right: 5px solid #0000;
+                    border-top: 4px solid $darkgrey;
+                }
+
+                &:hover {
+                    background-color: darken($lightgrey, 5%);
+                }
+        }
+}

@@ -1,0 +1,63 @@
+.carousel_img {
+    object-fit: cover ;
+    height: 600px;
+    overflow: hidden;
+}
+
+.carousel_title {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    font-size: 54px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 46px;
+    padding-bottom: 36px;
+}
+
+.carousel-caption {
+    bottom: 28% ;
+}
+
+.carousel_span {
+    display: block;
+   transform: rotate(45deg);
+   font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.carousel-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 28px;
+    height: 28px;
+    border: 1px solid $white;
+    transform: rotate(-45deg)
+}
+
+.line {
+    margin: 0 5px;
+    display: block;
+    width: 153px;
+    height: 1px;
+    background-color: $white;
+}
+
+.arrow_rotated {
+    transform: rotate(180deg);
+}
+
+.carousel-control {
+    bottom: 17px;
+
+        &-prev {
+            left: 39px;
+        }
+
+        &-next {
+            right: 40px;
+        }
+
+}

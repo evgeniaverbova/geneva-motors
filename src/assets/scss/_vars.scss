@@ -1,0 +1,20 @@
+$grey: #2B2B2B;
+$white: #ffffff;
+$black: #000000;
+$danger: #F64C4C;
+$body: #E5E5E5;
+$lightgrey: #F8F8F8;
+$darkgrey: #404040;
+$formborder: #EFEFEF;
+$warning: #BE3939;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  6: $spacer * 2.5,
+);

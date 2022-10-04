@@ -1,0 +1,99 @@
+
+
+@import "vars";
+@import "vendor/reset.scss";
+
+
+
+//mixixns
+@import "boots/mixins/breakpoints";
+@import "boots/mixins/container";
+@import "boots/mixins/grid";
+@import "boots/mixins/border-radius";
+@import "boots/mixins/box-shadow";
+@import "boots/mixins/buttons";
+@import "boots/mixins/color-scheme";
+@import "boots/mixins/reset-text";
+@import "boots/mixins/gradients";
+@import "boots/mixins/transition";
+@import "boots/mixins/backdrop";
+@import "boots/mixins/image";
+@import "boots/mixins/deprecate";
+@import "boots/mixins/caret";
+@import "boots/mixins/clearfix";
+@import "boots/bootstrap-grid";
+
+@import "boots/carousel";
+@import "boots/buttons";
+@import "boots/transitions";
+@import "boots/dropdown";
+
+@import "boots/utilities/api";
+@import "boots/vendor/rfs";
+@import "boots/modal";
+@import "boots/nav";
+@import "boots/navbar";
+@import "boots/close";
+
+
+
+
+@import "boots/bootstrap-utilities.scss";
+
+
+@import "boots/bootstrap-reboot.scss";
+
+
+
+/* Blocks */
+@import "blocks/main";
+@import "blocks/font";
+@import "blocks/navbar";
+@import "blocks/btn";
+@import "blocks/carousel";
+@import "blocks/form";
+// @import "blocks/";
+// @import "blocks/";
+// @import "blocks/";
+// @import "blocks/";
+
+
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-size: 14px;
+    min-width: 320px !important;
+    background-color: $body;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    color: #ffff;
+
+}
+
+h1,h2 {
+    color: #ffff;
+}
+
+h3 {
+    color: $danger;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    font-size: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+
+
+
