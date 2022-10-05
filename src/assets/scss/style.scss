@@ -1,5 +1,3 @@
-
-
 @import "vars";
 @import "vendor/reset.scss";
 
@@ -43,22 +41,6 @@
 
 @import "boots/bootstrap-reboot.scss";
 
-
-
-/* Blocks */
-@import "blocks/main";
-@import "blocks/font";
-@import "blocks/navbar";
-@import "blocks/btn";
-@import "blocks/carousel";
-@import "blocks/form";
-// @import "blocks/";
-// @import "blocks/";
-// @import "blocks/";
-// @import "blocks/";
-
-
-
 html {
     font-size: 62.5%;
 
@@ -74,25 +56,57 @@ body {
 *:before,
 *:after {
     box-sizing: border-box;
-    color: #ffff;
+    // color: #ffff;
+    color: inherit;
+    font-size: inherit;
 
 }
 
-h1,h2 {
+h1,h2, span {
     color: #ffff;
+    font-size: inherit;
+
 }
 
 h3 {
     color: $danger;
+    font-size: inherit;
+
 }
 
-h1,h2,h3,h4,h5,h6,p {
-    font-size: inherit;
+h4,
+.status 
+    {
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 textarea {
     resize: none;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+        &:hover {
+            color: inherit;
+            text-decoration: none;
+        }
+}
+
+
+/* Blocks */
+@import "blocks/main";
+@import "blocks/font";
+@import "blocks/navbar";
+@import "blocks/btn";
+@import "blocks/carousel";
+@import "blocks/form";
+@import "blocks/inventory";
+@import "blocks/testimonials";
+// @import "blocks/";
+// @import "blocks/";
+
 
 
 

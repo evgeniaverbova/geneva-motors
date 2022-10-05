@@ -3,17 +3,17 @@ layout: default
 title: Geneva Motors
 ---
 <section class="main">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-ride="false">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="5000">
-                <img src="/assets/images/carousel/carousel.jpg" class="carousel_img d-block w-100" alt="...">
+                <img src="./assets/images/carousel/carousel.jpg" class="carousel_img d-block w-100" alt="...">
                 <div class="carousel-caption row justify-content-center flex-column align-items-center">
                     <h2 class="carousel_title col-7">FIND YOUR DREAM CAR NOW</h2>
                     <button class="col-3 btn btn-danger btn__large mb-5">GO TO INVENTORY</button>
                     <div class="options_bckground d-flex align-items-center justify-content-center">
                         <span class="line"></span>
                         <div class="carousel-option">
-                            <span class="carousel_span ">or</span>
+                            <span class="carousel_span">or</span>
                         </div>
                         <span class="line"></span>
                     </div>
@@ -41,7 +41,7 @@ title: Geneva Motors
                     <div class="options_bckground d-flex align-items-center justify-content-center">
                         <span class="line"></span>
                         <div class="carousel-option">
-                            <span class="carousel_span ">or</span>
+                            <span class="carousel_span">or</span>
                         </div>
                         <span class="line"></span>
                     </div>
@@ -55,7 +55,7 @@ title: Geneva Motors
                     <div class="options_bckground d-flex align-items-center justify-content-center">
                         <span class="line"></span>
                         <div class="carousel-option">
-                            <span class="carousel_span ">or</span>
+                            <span class="carousel_span">or</span>
                         </div>
                         <span class="line"></span>
                     </div>
@@ -69,13 +69,13 @@ title: Geneva Motors
                     <div class="options_bckground d-flex align-items-center justify-content-center">
                         <span class="line"></span>
                         <div class="carousel-option">
-                            <span class="carousel_span ">or</span>
+                            <span class="carousel_span">or</span>
                         </div>
                         <span class="line"></span>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item" data-bs-interval="50000">
+            <div class="carousel-item" data-bs-interval="5000">
                 <img src="assets/images/carousel/carousel5.jpg" class="carousel_img d-block w-100" alt="...">
                 <div class="carousel-caption row justify-content-center flex-column align-items-center">
                     <h2 class="col-8 carousel_title">Get pre-approved on vehicle</h2>
@@ -83,20 +83,20 @@ title: Geneva Motors
                     <div class="options_bckground d-flex align-items-center justify-content-center">
                         <span class="line"></span>
                         <div class="carousel-option">
-                            <span class="carousel_span ">or</span>
+                            <span class="carousel_span">or</span>
                         </div>
                         <span class="line"></span>
                     </div>
                 </div>
             </div>
         </div>
-        <button class="carousel-control carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+        <button class="carousel-control carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
             data-bs-slide="prev">
             <div class="btn__bckgraund">
                 <img src="/assets/images/carousel/arrow.svg" alt="">
             </div>
         </button>
-        <button class="carousel-control carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+        <button class="carousel-control carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
             data-bs-slide="next">
             <div class="btn__bckgraund">
                 <img class="arrow_rotated" src="/assets/images/carousel/arrow.svg" alt="">
@@ -172,9 +172,1127 @@ title: Geneva Motors
     </div>
     <!--form-->
 </section>
-
 <section class="inventory_prew container">
-    <div class="row">
-    </div>
+    <div class="row justify-content-evenly mb-7">
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <img class="inventory-img pb-3" src="/assets/images/inventory/item1.png" alt="">
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">Chevrolet Silverado 1500</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
 
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item1-->
+
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <img class="inventory-img pb-3" src="/assets/images/inventory/item2.png" alt="">
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">GMC Yukon XL SLT</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
+
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item2-->
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <img class="inventory-img pb-3" src="/assets/images/inventory/item1.png" alt="">
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">Chevrolet Silverado 1500</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
+
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item3-->
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="500000">
+                            <img src="./assets/images/inventory/item2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="500000">
+                            <img src="./assets/images/inventory/item1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="inventory-control-prev carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <div class="btn__control" aria-hidden="true">
+                            <svg class="d-block" width="6" height="9" viewBox="0 0 5 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.91314 7.2583C5.02895 7.15723 5.02895 6.99298 4.91314 6.89191L1.21437 3.67021L4.91314 0.442194C5.02895 0.341121 5.02895 0.176878 4.91314 0.0758047C4.79733 -0.0252682 4.60913 -0.0252682 4.49332 0.0758047L0.591876 3.4807C0.53397 3.53124 0.505017 3.59441 0.505017 3.66389C0.505017 3.72706 0.53397 3.79655 0.591876 3.84709L4.49332 7.25198C4.60913 7.35937 4.79733 7.35937 4.91314 7.2583Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                    </button>
+                    <button class="carousel-control-next inventory-control-next" type="button"
+                        data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <div class="btn__control" aria-hidden="true">
+                            <svg class="arrow_rotated d-block" width="6" height="9" viewBox="0 0 5 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.91314 7.2583C5.02895 7.15723 5.02895 6.99298 4.91314 6.89191L1.21437 3.67021L4.91314 0.442194C5.02895 0.341121 5.02895 0.176878 4.91314 0.0758047C4.79733 -0.0252682 4.60913 -0.0252682 4.49332 0.0758047L0.591876 3.4807C0.53397 3.53124 0.505017 3.59441 0.505017 3.66389C0.505017 3.72706 0.53397 3.79655 0.591876 3.84709L4.49332 7.25198C4.60913 7.35937 4.79733 7.35937 4.91314 7.2583Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+
+                    </button>
+                </div>
+
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">GMC Yukon XL SLT</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
+
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item4-->
+    </div>
+    <!--/row1-->
+    <div class="row justify-content-evenly mb-7">
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <img class="inventory-img pb-3" src="/assets/images/inventory/item1.png" alt="">
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">Chevrolet Silverado 1500</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
+
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item1-->
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <div id="carouselExampleDark_two" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="500000">
+                            <img src="./assets/images/inventory/item2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="500000">
+                            <img src="./assets/images/inventory/item1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="inventory-control-prev carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleDark_two" data-bs-slide="prev">
+                        <div class="btn__control" aria-hidden="true">
+                            <svg class="d-block" width="6" height="9" viewBox="0 0 5 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.91314 7.2583C5.02895 7.15723 5.02895 6.99298 4.91314 6.89191L1.21437 3.67021L4.91314 0.442194C5.02895 0.341121 5.02895 0.176878 4.91314 0.0758047C4.79733 -0.0252682 4.60913 -0.0252682 4.49332 0.0758047L0.591876 3.4807C0.53397 3.53124 0.505017 3.59441 0.505017 3.66389C0.505017 3.72706 0.53397 3.79655 0.591876 3.84709L4.49332 7.25198C4.60913 7.35937 4.79733 7.35937 4.91314 7.2583Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                    </button>
+                    <button class="carousel-control-next inventory-control-next" type="button"
+                        data-bs-target="#carouselExampleDark_two" data-bs-slide="next">
+                        <div class="btn__control" aria-hidden="true">
+                            <svg class="arrow_rotated d-block" width="6" height="9" viewBox="0 0 5 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.91314 7.2583C5.02895 7.15723 5.02895 6.99298 4.91314 6.89191L1.21437 3.67021L4.91314 0.442194C5.02895 0.341121 5.02895 0.176878 4.91314 0.0758047C4.79733 -0.0252682 4.60913 -0.0252682 4.49332 0.0758047L0.591876 3.4807C0.53397 3.53124 0.505017 3.59441 0.505017 3.66389C0.505017 3.72706 0.53397 3.79655 0.591876 3.84709L4.49332 7.25198C4.60913 7.35937 4.79733 7.35937 4.91314 7.2583Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+
+                    </button>
+                </div>
+
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">GMC Yukon XL SLT</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
+
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item2-->
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <img class="inventory-img pb-3" src="/assets/images/inventory/item1.png" alt="">
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">Chevrolet Silverado 1500</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
+
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item3-->
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <img class="inventory-img pb-3" src="/assets/images/inventory/item2.png" alt="">
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">GMC Yukon XL SLT</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
+
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item4-->
+    </div>
+    <!--/row2-->
+    <div class="row justify-content-evenly mb-7">
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <img class="inventory-img pb-3" src="/assets/images/inventory/item1.png" alt="">
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">Chevrolet Silverado 1500</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
+
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item1-->
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <img class="inventory-img pb-3" src="/assets/images/inventory/item2.png" alt="">
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">GMC Yukon XL SLT</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
+
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item2-->
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <img class="inventory-img pb-3" src="/assets/images/inventory/item1.png" alt="">
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">Chevrolet Silverado 1500</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
+
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item3-->
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <div id="carouselExampleDark__three" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="500000">
+                            <img src="./assets/images/inventory/item2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="500000">
+                            <img src="./assets/images/inventory/item1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="inventory-control-prev carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleDark__three" data-bs-slide="prev">
+                        <div class="btn__control" aria-hidden="true">
+                            <svg class="d-block" width="6" height="9" viewBox="0 0 5 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.91314 7.2583C5.02895 7.15723 5.02895 6.99298 4.91314 6.89191L1.21437 3.67021L4.91314 0.442194C5.02895 0.341121 5.02895 0.176878 4.91314 0.0758047C4.79733 -0.0252682 4.60913 -0.0252682 4.49332 0.0758047L0.591876 3.4807C0.53397 3.53124 0.505017 3.59441 0.505017 3.66389C0.505017 3.72706 0.53397 3.79655 0.591876 3.84709L4.49332 7.25198C4.60913 7.35937 4.79733 7.35937 4.91314 7.2583Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                    </button>
+                    <button class="carousel-control-next inventory-control-next" type="button"
+                        data-bs-target="#carouselExampleDark__three" data-bs-slide="next">
+                        <div class="btn__control" aria-hidden="true">
+                            <svg class="arrow_rotated d-block" width="6" height="9" viewBox="0 0 5 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.91314 7.2583C5.02895 7.15723 5.02895 6.99298 4.91314 6.89191L1.21437 3.67021L4.91314 0.442194C5.02895 0.341121 5.02895 0.176878 4.91314 0.0758047C4.79733 -0.0252682 4.60913 -0.0252682 4.49332 0.0758047L0.591876 3.4807C0.53397 3.53124 0.505017 3.59441 0.505017 3.66389C0.505017 3.72706 0.53397 3.79655 0.591876 3.84709L4.49332 7.25198C4.60913 7.35937 4.79733 7.35937 4.91314 7.2583Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+
+                    </button>
+                </div>
+
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">GMC Yukon XL SLT</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
+
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item4-->
+    </div>
+    <!--/row1-->
+    <div class="row justify-content-evenly mb-7">
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <img class="inventory-img pb-3" src="/assets/images/inventory/item1.png" alt="">
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">Chevrolet Silverado 1500</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
+
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item1-->
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <div id="carouselExampleDark_four" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="500000">
+                            <img src="./assets/images/inventory/item2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="500000">
+                            <img src="./assets/images/inventory/item1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="inventory-control-prev carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleDark_four" data-bs-slide="prev">
+                        <div class="btn__control" aria-hidden="true">
+                            <svg class="d-block" width="6" height="9" viewBox="0 0 5 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.91314 7.2583C5.02895 7.15723 5.02895 6.99298 4.91314 6.89191L1.21437 3.67021L4.91314 0.442194C5.02895 0.341121 5.02895 0.176878 4.91314 0.0758047C4.79733 -0.0252682 4.60913 -0.0252682 4.49332 0.0758047L0.591876 3.4807C0.53397 3.53124 0.505017 3.59441 0.505017 3.66389C0.505017 3.72706 0.53397 3.79655 0.591876 3.84709L4.49332 7.25198C4.60913 7.35937 4.79733 7.35937 4.91314 7.2583Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                    </button>
+                    <button class="carousel-control-next inventory-control-next" type="button"
+                        data-bs-target="#carouselExampleDark_four" data-bs-slide="next">
+                        <div class="btn__control" aria-hidden="true">
+                            <svg class="arrow_rotated d-block" width="6" height="9" viewBox="0 0 5 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.91314 7.2583C5.02895 7.15723 5.02895 6.99298 4.91314 6.89191L1.21437 3.67021L4.91314 0.442194C5.02895 0.341121 5.02895 0.176878 4.91314 0.0758047C4.79733 -0.0252682 4.60913 -0.0252682 4.49332 0.0758047L0.591876 3.4807C0.53397 3.53124 0.505017 3.59441 0.505017 3.66389C0.505017 3.72706 0.53397 3.79655 0.591876 3.84709L4.49332 7.25198C4.60913 7.35937 4.79733 7.35937 4.91314 7.2583Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+
+                    </button>
+                </div>
+
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">GMC Yukon XL SLT</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
+
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item2-->
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <img class="inventory-img pb-3" src="/assets/images/inventory/item1.png" alt="">
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">Chevrolet Silverado 1500</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
+
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item3-->
+        <div class="col-3 inventory-item d-flex flex-column">
+            <div class="inventory-img-group">
+                <img class="inventory-img pb-3" src="/assets/images/inventory/item2.png" alt="">
+                <button class="btn star">
+                    <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7588 10.1609L23.7587 10.161L19.379 14.4393L19.3786 14.4396C18.9582 14.8507 18.7641 15.4429 18.8638 16.0256C18.8638 16.0256 18.8638 16.0256 18.8638 16.0256L19.8975 22.0659L19.8978 22.0674C19.9399 22.3112 19.8787 22.5303 19.7278 22.7093L19.7268 22.7105C19.5688 22.8984 19.3457 23 19.1166 23C18.9932 23 18.8722 22.9712 18.7493 22.9064L18.7487 22.9061L13.3348 20.0539L13.3315 20.0522C12.818 19.7841 12.1864 19.7804 11.6667 20.0534L11.6657 20.054L6.25243 22.906C6.25237 22.906 6.25231 22.9061 6.25225 22.9061C5.93015 23.0756 5.50979 22.9916 5.27409 22.7109L5.27317 22.7098C5.1218 22.53 5.06066 22.3115 5.10277 22.067L5.10297 22.0659L6.13612 16.0259C6.13615 16.0258 6.13617 16.0256 6.1362 16.0255C6.2359 15.4434 6.04177 14.8507 5.62139 14.4396L5.62097 14.4392L1.24127 10.1615L1.24121 10.1614C1.02168 9.94707 0.944923 9.63873 1.04029 9.3438C1.13596 9.04941 1.37835 8.84606 1.68047 8.80218L1.6808 8.80213L7.73399 7.9208L7.73431 7.92076C8.31687 7.83575 8.8222 7.46966 9.08323 6.93915C9.0833 6.93901 9.08337 6.93887 9.08344 6.93873C9.08349 6.93864 9.08353 6.93854 9.08358 6.93845L11.79 1.44302L11.7901 1.44275C11.9258 1.1669 12.1948 1 12.5002 1C12.8064 1 13.0752 1.16704 13.2109 1.44275L13.211 1.44298L15.9169 6.93795C15.917 6.93804 15.917 6.93813 15.9171 6.93821C15.9171 6.93835 15.9172 6.93848 15.9172 6.93862C16.1779 7.46836 16.6823 7.83512 17.2657 7.92026L17.266 7.9203L23.3189 8.80159C23.6223 8.84585 23.8641 9.0492 23.9597 9.34331C24.0551 9.63824 23.9783 9.94657 23.7588 10.1609Z"
+                            stroke="white" stroke-width="2" />
+                    </svg>
+                </button>
+            </div>
+            <p class="status pt-1">Used</p>
+            <h4 class="inventory-title">GMC Yukon XL SLT</h4>
+            <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
+            <span class="line line__grey line__lg mx-0"></span>
+            <a href="" class="inventory-footer d-flex justify-content-between pt-3">
+                <ul class="item-footer-list ms-0 ps-0">
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Stock:</h5>
+                        <p class="car-descr">#2885</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Mileage:</h5>
+                        <p class="car-descr">46, 505</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <h5 class="item-footer-title">Fuel type:</h5>
+                        <p class="car-descr">Gasoline</p>
+                    </li>
+                </ul>
+
+                <ul class="inventory-contacts">
+                    <li class="d-flex inventory-contacts-item align-items-center pb-4">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img class="inventory-icon" src="/assets/images/inventory/footer2.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Call</h5>
+                    </li>
+                    <li class="d-flex inventory-contacts-item align-items-center">
+                        <button class="btn btn__invent btn__bckgraund me-2">
+                            <img src="/assets/images/inventory/footer1.svg" alt="">
+                        </button>
+                        <h5 class="inventory-contacts-title mb-0">Text</h5>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <!--item4-->
+    </div>
+    <!--/row2-->
+    <div class="inventory-more_block col-12 text-center">
+        <a href="" class="inventory-more pb-2">view all INVENTORY</a>
+    </div>
+    <div class="row inventory-links d-flex align-items-center justify-content-center pb-8">
+        <div class="col-3 inventory-link_item">
+            <h5 class="inventory-link_title pb-3">View Inventory</h5>
+            <a href="" class="btn__inventlinks inventlink">
+                <svg width="51" height="33" viewBox="0 0 51 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M47.5893 10.6975C47.5554 10.659 47.5267 10.6215 47.4867 10.584L45.7257 8.90431C47.1862 8.57689 48.7585 7.36757 48.7585 6.12684C48.7585 4.68134 46.7288 4.16842 44.9965 4.16842C43.1852 4.16842 42.9749 5.39496 42.9534 6.26166L38.4098 1.93225C37.4867 1.02907 35.7359 0.318482 34.4272 0.318482H25.5779H25.5759H16.7246C15.4169 0.318482 13.6671 1.02907 12.743 1.93225L8.20044 6.26166C8.17685 5.39496 7.9666 4.16842 6.15736 4.16842C4.42299 4.16842 2.39427 4.68134 2.39427 6.12684C2.39427 7.36757 3.96761 8.57689 5.42812 8.90431L3.66709 10.584C3.62709 10.6215 3.5994 10.659 3.56453 10.6975C1.68042 12.289 0.449646 15.2408 0.449646 17.3827V23.7475C0.449646 25.2924 1.06606 26.6943 2.06196 27.7394V30.2077C2.06196 31.6512 3.28453 32.828 4.78812 32.828H8.08454C9.58814 32.828 10.8097 31.6532 10.8097 30.2077V29.5762H25.5759H25.5779H40.3431V30.2077C40.3431 31.6532 41.5636 32.828 43.0693 32.828H46.3647C47.8693 32.828 49.0898 31.6512 49.0898 30.2077V27.7394C50.0867 26.6943 50.7021 25.2924 50.7021 23.7475V17.3827C50.7042 15.2408 49.4734 12.289 47.5893 10.6975ZM14.4117 3.85621C15.0507 3.33011 16.1676 2.93072 16.7246 2.93072H25.5759H25.5779H34.4293C34.9862 2.93072 36.1031 3.33011 36.7421 3.85621L42.7001 9.56319H25.5779H25.5759H8.4548L14.4117 3.85621ZM2.49376 16.4197C2.49376 14.8525 3.73479 13.5804 5.2671 13.5804C6.79839 13.5804 11.8025 16.4835 11.8025 18.0507C11.8025 19.6178 6.79839 19.2549 5.2671 19.2549C3.73479 19.2549 2.49376 17.9878 2.49376 16.4197ZM10.8107 26.7855H10.2825H9.75429L6.62095 26.7906C5.7512 26.523 5.13787 26.2108 4.70402 25.8752C4.48453 25.706 4.31633 25.5296 4.18504 25.3542C4.05274 25.1768 3.95632 25.0025 3.89376 24.8281C3.50402 23.7394 4.30915 22.7389 4.30915 22.7389H9.65686L13.222 26.7835L10.8107 26.7855ZM33.2662 26.7876H25.5779H25.5759H17.8877C16.2846 26.7876 14.983 25.5012 14.983 23.9178H25.5759H25.5779H36.1708C36.1708 25.5032 34.8693 26.7876 33.2662 26.7876ZM33.941 21.9594H25.5779H25.5759H17.2128C15.4692 21.9594 14.0538 19.8348 14.0538 17.2144H25.5759H25.5779H37.1C37.1 19.8358 35.6846 21.9594 33.941 21.9594ZM47.2611 24.8301C47.1975 25.0045 47.1011 25.1789 46.9688 25.3552C46.8385 25.5306 46.6703 25.707 46.4498 25.8763C46.017 26.2118 45.4026 26.526 44.5329 26.7916L41.3995 26.7865H40.8713H40.3431H37.9298L41.497 22.742H46.8437C46.8437 22.741 47.6498 23.7394 47.2611 24.8301ZM45.8867 19.2549C44.3565 19.2549 39.3523 19.6158 39.3523 18.0507C39.3523 16.4856 44.3565 13.5804 45.8867 13.5804C47.419 13.5804 48.6601 14.8525 48.6601 16.4197C48.6601 17.9858 47.419 19.2549 45.8867 19.2549Z"
+                        fill="white" />
+                </svg>
+            </a>
+            <p class="inventory-link_text text-center col-8 pt-5">View the selection of vehicles available today.</p>
+        </div>
+        <div class="col-3 inventory-link_item">
+            <h5 class="inventory-link_title pb-3">Lifted Trucks</h5>
+            <a href="" class="btn__inventlinks inventlink">
+                <svg width="42" height="50" viewBox="0 0 42 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M39.4568 40.3099V32.7903C39.4568 31.1746 38.1493 29.8648 36.5364 29.8648H35.773V2.41223C35.773 2.16666 35.6499 1.9375 35.4455 1.80212L33.5918 0.574724C33.1063 0.253372 32.4592 0.601974 32.4592 1.18484V10.0016L31.9068 8.5089C31.1639 6.50128 29.2522 5.16886 27.1148 5.16886H14.3519C12.2019 5.16886 10.2819 6.51673 9.5481 8.54117L9.01876 10.0016V1.18484C9.01876 0.602054 8.37153 0.253372 7.88609 0.574724L6.0323 1.80204C5.8278 1.93742 5.70475 2.16658 5.70475 2.41215V29.8648H4.94139C3.32853 29.8648 2.02103 31.1746 2.02103 32.7903V40.3099H0.776844C0.373649 40.3099 0.0468138 40.6373 0.0468138 41.0413V45.0845C0.0468138 45.4884 0.373649 45.8159 0.776844 45.8159H3.92652V47.7539C3.92652 48.5618 4.58027 49.2166 5.38674 49.2166H9.25603C10.0625 49.2166 10.7162 48.5617 10.7162 47.7539V45.8159H30.7618V47.7539C30.7618 48.5618 31.4156 49.2166 32.2219 49.2166H36.0913C36.8978 49.2166 37.5514 48.5617 37.5514 47.7539V45.8159H40.7011C41.1044 45.8159 41.4312 45.4884 41.4312 45.0845V41.0414C41.4312 40.6374 41.1044 40.31 40.7011 40.31L39.4568 40.3099ZM9.98606 14.0756H31.4918V21.2819H9.98606V14.0756ZM9.48598 38.2633H6.9918C6.22972 38.2633 5.61192 37.6443 5.61192 36.8809V36.846C5.61192 36.0826 6.22972 35.4637 6.9918 35.4637H9.4859C10.248 35.4637 10.8658 36.0826 10.8658 36.846V36.8809C10.8659 37.6443 10.2481 38.2633 9.48598 38.2633ZM25.7022 38.6708H15.7757C14.9692 38.6708 14.3155 38.0158 14.3155 37.2081V27.9401C14.3155 27.1323 14.9692 26.4774 15.7757 26.4774H25.7022C26.5085 26.4774 27.1623 27.1324 27.1623 27.9401V37.208C27.1624 38.0158 26.5085 38.6708 25.7022 38.6708ZM34.486 38.2633H31.9919C31.2299 38.2633 30.612 37.6443 30.612 36.8809V36.846C30.612 36.0826 31.2299 35.4637 31.9919 35.4637H34.486C35.2481 35.4637 35.8659 36.0826 35.8659 36.846V36.8809C35.8659 37.6443 35.2481 38.2633 34.486 38.2633ZM25.4802 31.8305H15.9743C15.5751 31.8305 15.2515 31.5064 15.2515 31.1064V31.0917C15.2515 30.6918 15.5751 30.3677 15.9743 30.3677H25.4802C25.8794 30.3677 26.2029 30.6918 26.2029 31.0917V31.1064C26.2029 31.5064 25.8794 31.8305 25.4802 31.8305ZM25.4802 28.9049H15.9743C15.5751 28.9049 15.2515 28.5808 15.2515 28.1809V28.1662C15.2515 27.7664 15.5751 27.4423 15.9743 27.4423H25.4802C25.8794 27.4423 26.2029 27.7664 26.2029 28.1662V28.1809C26.2029 28.5808 25.8794 28.9049 25.4802 28.9049ZM25.4802 37.6815H15.9743C15.5751 37.6815 15.2515 37.3574 15.2515 36.9575V36.9428C15.2515 36.5429 15.5751 36.2187 15.9743 36.2187H25.4802C25.8794 36.2187 26.2029 36.5429 26.2029 36.9428V36.9575C26.2029 37.3574 25.8794 37.6815 25.4802 37.6815ZM25.4802 34.756H15.9743C15.5751 34.756 15.2515 34.4318 15.2515 34.032V34.0173C15.2515 33.6174 15.5751 33.2933 15.9743 33.2933H25.4802C25.8794 33.2933 26.2029 33.6174 26.2029 34.0173V34.032C26.2029 34.4318 25.8794 34.756 25.4802 34.756Z"
+                        fill="white" />
+                </svg>
+            </a>
+            <p class="inventory-link_text text-center col-8 pt-5">Find Great Deals on Lifted Trucks.</p>
+        </div>
+        <div class="col-3 inventory-link_item">
+            <h5 class="inventory-link_title pb-3">work trucks/vans</h5>
+            <a href="" class="btn__inventlinks inventlink">
+                <svg width="48" height="47" viewBox="0 0 48 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M23.9019 0.929932C10.8624 0.929932 0.253906 11.7527 0.253906 25.0557C0.253906 34.0323 5.09283 42.2128 12.8821 46.405L13.5027 46.7388H34.3014L34.922 46.405C42.7116 42.2126 47.5504 34.0321 47.5504 25.0557C47.5504 11.7527 36.9417 0.929932 23.9019 0.929932ZM32.8715 40.9579H28.4909L27.5106 33.7997C28.1599 33.681 28.8182 33.5324 29.4906 33.349C29.8351 33.2549 30.1202 33.008 30.2671 32.6764C32.4614 27.7212 33.3331 23.0976 33.0106 18.1259C32.9771 17.6129 32.6309 17.1771 32.146 17.0378C29.3249 16.2287 26.6285 15.835 23.9021 15.835C21.176 15.835 18.4796 16.2285 15.6586 17.0378C15.1736 17.1771 14.8274 17.6127 14.7939 18.1259C14.4714 23.0976 15.3431 27.7212 17.5374 32.6764C17.6843 33.0084 17.9695 33.2552 18.3143 33.349C18.9865 33.5324 19.6446 33.6809 20.2937 33.7994L19.3134 40.9578H14.933C11.0475 38.6748 8.20311 35.0542 6.83437 30.8378C9.20731 30.4916 11.5818 30.2177 13.9572 30.0158C13.0512 27.2512 12.5362 24.5345 12.3924 21.7561C10.0355 22.3079 7.80295 23.1572 5.93134 24.4616C6.23992 14.6203 14.1822 6.71092 23.9023 6.71092C33.6234 6.71092 41.5666 14.6218 41.8738 24.4645C41.688 24.3345 41.4911 24.2075 41.2818 24.0846C39.4946 23.0345 37.4945 22.3106 35.4097 21.8118C35.2619 24.5698 34.7481 27.268 33.8485 30.0133C36.224 30.2145 38.599 30.4876 40.9721 30.8332C39.6034 35.0518 36.7583 38.6743 32.8715 40.9579Z"
+                        fill="white" />
+                </svg>
+            </a>
+            <p class="inventory-link_text text-center col-9 pt-5">Find Great Deals on Work Trucks and Vans.</p>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials pb-7">
+    <div class="container text-center">
+            <h4 class="testimonials-title pt-6 col-12">Testimonials</h4>
+            <div class="row justify-content-evenly testimonials-inner">
+            <div class="col-3 review pt-5 text-start">
+                <h4 class="review_title pb-3">Car buying experience</h4>
+                <p class="review_text">
+                    Came here looking for a particular car. They had our car in stock,
+                    for a price that was fair for all parties,
+                    Eric Sanchez was super easy to work with and took great care of us through the whole car buying
+                    experience.
+                </p>
+                <div class="rates d-flex col-8">
+                    <svg class="rate-star" width="18" height="17" viewBox="0 0 18 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.7088 7.40153L14.0559 10.9185L14.9181 15.8848C14.9799 16.2424 14.8302 16.6042 14.5334 16.8178C14.3654 16.9384 14.1655 16.9999 13.9656 16.9999C13.8121 16.9999 13.6577 16.9637 13.5162 16.8903L9.00018 14.5456L4.48414 16.8903C4.15877 17.0595 3.76485 17.0309 3.467 16.8188C3.17012 16.6052 3.02095 16.2438 3.08322 15.8858L3.94588 10.9195L0.292017 7.40201C0.0279575 7.14885 -0.0656941 6.76984 0.0467845 6.42467C0.160711 6.07951 0.462424 5.82826 0.826411 5.77582L5.8754 5.05068L8.13462 0.532052C8.29634 0.205956 8.63233 5.0013e-09 8.99969 5.0013e-09C9.36803 5.0013e-09 9.70256 0.205956 9.86525 0.531575L12.1245 5.0502L17.1744 5.77534C17.5374 5.82731 17.8401 6.07903 17.9521 6.4242C18.067 6.76936 17.9709 7.14838 17.7088 7.40153Z"
+                            fill="#FFAE34" />
+                    </svg>
+                    <svg class="rate-star" width="18" height="17" viewBox="0 0 18 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.7088 7.40153L14.0559 10.9185L14.9181 15.8848C14.9799 16.2424 14.8302 16.6042 14.5334 16.8178C14.3654 16.9384 14.1655 16.9999 13.9656 16.9999C13.8121 16.9999 13.6577 16.9637 13.5162 16.8903L9.00018 14.5456L4.48414 16.8903C4.15877 17.0595 3.76485 17.0309 3.467 16.8188C3.17012 16.6052 3.02095 16.2438 3.08322 15.8858L3.94588 10.9195L0.292017 7.40201C0.0279575 7.14885 -0.0656941 6.76984 0.0467845 6.42467C0.160711 6.07951 0.462424 5.82826 0.826411 5.77582L5.8754 5.05068L8.13462 0.532052C8.29634 0.205956 8.63233 5.0013e-09 8.99969 5.0013e-09C9.36803 5.0013e-09 9.70256 0.205956 9.86525 0.531575L12.1245 5.0502L17.1744 5.77534C17.5374 5.82731 17.8401 6.07903 17.9521 6.4242C18.067 6.76936 17.9709 7.14838 17.7088 7.40153Z"
+                            fill="#FFAE34" />
+                    </svg>
+                    <svg class="rate-star" width="18" height="17" viewBox="0 0 18 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.7088 7.40153L14.0559 10.9185L14.9181 15.8848C14.9799 16.2424 14.8302 16.6042 14.5334 16.8178C14.3654 16.9384 14.1655 16.9999 13.9656 16.9999C13.8121 16.9999 13.6577 16.9637 13.5162 16.8903L9.00018 14.5456L4.48414 16.8903C4.15877 17.0595 3.76485 17.0309 3.467 16.8188C3.17012 16.6052 3.02095 16.2438 3.08322 15.8858L3.94588 10.9195L0.292017 7.40201C0.0279575 7.14885 -0.0656941 6.76984 0.0467845 6.42467C0.160711 6.07951 0.462424 5.82826 0.826411 5.77582L5.8754 5.05068L8.13462 0.532052C8.29634 0.205956 8.63233 5.0013e-09 8.99969 5.0013e-09C9.36803 5.0013e-09 9.70256 0.205956 9.86525 0.531575L12.1245 5.0502L17.1744 5.77534C17.5374 5.82731 17.8401 6.07903 17.9521 6.4242C18.067 6.76936 17.9709 7.14838 17.7088 7.40153Z"
+                            fill="#FFAE34" />
+                    </svg>
+                    <svg class="rate-star" width="18" height="17" viewBox="0 0 18 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.7088 7.40153L14.0559 10.9185L14.9181 15.8848C14.9799 16.2424 14.8302 16.6042 14.5334 16.8178C14.3654 16.9384 14.1655 16.9999 13.9656 16.9999C13.8121 16.9999 13.6577 16.9637 13.5162 16.8903L9.00018 14.5456L4.48414 16.8903C4.15877 17.0595 3.76485 17.0309 3.467 16.8188C3.17012 16.6052 3.02095 16.2438 3.08322 15.8858L3.94588 10.9195L0.292017 7.40201C0.0279575 7.14885 -0.0656941 6.76984 0.0467845 6.42467C0.160711 6.07951 0.462424 5.82826 0.826411 5.77582L5.8754 5.05068L8.13462 0.532052C8.29634 0.205956 8.63233 5.0013e-09 8.99969 5.0013e-09C9.36803 5.0013e-09 9.70256 0.205956 9.86525 0.531575L12.1245 5.0502L17.1744 5.77534C17.5374 5.82731 17.8401 6.07903 17.9521 6.4242C18.067 6.76936 17.9709 7.14838 17.7088 7.40153Z"
+                            fill="#FFAE34" />
+                    </svg>
+                    <svg class="rate-star" width="18" height="17" viewBox="0 0 18 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.7088 7.40153L14.0559 10.9185L14.9181 15.8848C14.9799 16.2424 14.8302 16.6042 14.5334 16.8178C14.3654 16.9384 14.1655 16.9999 13.9656 16.9999C13.8121 16.9999 13.6577 16.9637 13.5162 16.8903L9.00018 14.5456L4.48414 16.8903C4.15877 17.0595 3.76485 17.0309 3.467 16.8188C3.17012 16.6052 3.02095 16.2438 3.08322 15.8858L3.94588 10.9195L0.292017 7.40201C0.0279575 7.14885 -0.0656941 6.76984 0.0467845 6.42467C0.160711 6.07951 0.462424 5.82826 0.826411 5.77582L5.8754 5.05068L8.13462 0.532052C8.29634 0.205956 8.63233 5.0013e-09 8.99969 5.0013e-09C9.36803 5.0013e-09 9.70256 0.205956 9.86525 0.531575L12.1245 5.0502L17.1744 5.77534C17.5374 5.82731 17.8401 6.07903 17.9521 6.4242C18.067 6.76936 17.9709 7.14838 17.7088 7.40153Z"
+                            fill="#FFAE34" />
+                    </svg>
+                </div>
+                <div class="review-footer col-8">
+                    <ul class="user-info d-flex ms-0 ps-0 pt-2 pb-0 mb-0">
+                        <li class="user-info_item name">Christine L.</li>
+                        <li class="user-info_item adresss">Palms</li>
+                        <li class="user-info_item job">CA</li>
+                    </ul>
+                    <time datetime="2016-01-11">November 1, 2016</time>
+                </div>
+            </div>
+
+            <div class="col-3 review pt-5 text-start">
+                <h4 class="review_title pb-3">Great Cars and Service!!</h4>
+                <p class="review_text">
+                    I bought a Mercedes Benz C class from Geneva Motors and 
+                    it was one of the best choices i have ever made! I love my car so much it is in great condition
+                     and i have had it for a few months now. 
+                    They have the best customer service! Thank you so much Geneva Motors!!
+                </p>
+                <div class="rates d-flex col-8">
+                    <svg class="rate-star" width="18" height="17" viewBox="0 0 18 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.7088 7.40153L14.0559 10.9185L14.9181 15.8848C14.9799 16.2424 14.8302 16.6042 14.5334 16.8178C14.3654 16.9384 14.1655 16.9999 13.9656 16.9999C13.8121 16.9999 13.6577 16.9637 13.5162 16.8903L9.00018 14.5456L4.48414 16.8903C4.15877 17.0595 3.76485 17.0309 3.467 16.8188C3.17012 16.6052 3.02095 16.2438 3.08322 15.8858L3.94588 10.9195L0.292017 7.40201C0.0279575 7.14885 -0.0656941 6.76984 0.0467845 6.42467C0.160711 6.07951 0.462424 5.82826 0.826411 5.77582L5.8754 5.05068L8.13462 0.532052C8.29634 0.205956 8.63233 5.0013e-09 8.99969 5.0013e-09C9.36803 5.0013e-09 9.70256 0.205956 9.86525 0.531575L12.1245 5.0502L17.1744 5.77534C17.5374 5.82731 17.8401 6.07903 17.9521 6.4242C18.067 6.76936 17.9709 7.14838 17.7088 7.40153Z"
+                            fill="#FFAE34" />
+                    </svg>
+                    <svg class="rate-star" width="18" height="17" viewBox="0 0 18 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.7088 7.40153L14.0559 10.9185L14.9181 15.8848C14.9799 16.2424 14.8302 16.6042 14.5334 16.8178C14.3654 16.9384 14.1655 16.9999 13.9656 16.9999C13.8121 16.9999 13.6577 16.9637 13.5162 16.8903L9.00018 14.5456L4.48414 16.8903C4.15877 17.0595 3.76485 17.0309 3.467 16.8188C3.17012 16.6052 3.02095 16.2438 3.08322 15.8858L3.94588 10.9195L0.292017 7.40201C0.0279575 7.14885 -0.0656941 6.76984 0.0467845 6.42467C0.160711 6.07951 0.462424 5.82826 0.826411 5.77582L5.8754 5.05068L8.13462 0.532052C8.29634 0.205956 8.63233 5.0013e-09 8.99969 5.0013e-09C9.36803 5.0013e-09 9.70256 0.205956 9.86525 0.531575L12.1245 5.0502L17.1744 5.77534C17.5374 5.82731 17.8401 6.07903 17.9521 6.4242C18.067 6.76936 17.9709 7.14838 17.7088 7.40153Z"
+                            fill="#FFAE34" />
+                    </svg>
+                    <svg class="rate-star" width="18" height="17" viewBox="0 0 18 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.7088 7.40153L14.0559 10.9185L14.9181 15.8848C14.9799 16.2424 14.8302 16.6042 14.5334 16.8178C14.3654 16.9384 14.1655 16.9999 13.9656 16.9999C13.8121 16.9999 13.6577 16.9637 13.5162 16.8903L9.00018 14.5456L4.48414 16.8903C4.15877 17.0595 3.76485 17.0309 3.467 16.8188C3.17012 16.6052 3.02095 16.2438 3.08322 15.8858L3.94588 10.9195L0.292017 7.40201C0.0279575 7.14885 -0.0656941 6.76984 0.0467845 6.42467C0.160711 6.07951 0.462424 5.82826 0.826411 5.77582L5.8754 5.05068L8.13462 0.532052C8.29634 0.205956 8.63233 5.0013e-09 8.99969 5.0013e-09C9.36803 5.0013e-09 9.70256 0.205956 9.86525 0.531575L12.1245 5.0502L17.1744 5.77534C17.5374 5.82731 17.8401 6.07903 17.9521 6.4242C18.067 6.76936 17.9709 7.14838 17.7088 7.40153Z"
+                            fill="#FFAE34" />
+                    </svg>
+                    <svg class="rate-star" width="18" height="17" viewBox="0 0 18 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.7088 7.40153L14.0559 10.9185L14.9181 15.8848C14.9799 16.2424 14.8302 16.6042 14.5334 16.8178C14.3654 16.9384 14.1655 16.9999 13.9656 16.9999C13.8121 16.9999 13.6577 16.9637 13.5162 16.8903L9.00018 14.5456L4.48414 16.8903C4.15877 17.0595 3.76485 17.0309 3.467 16.8188C3.17012 16.6052 3.02095 16.2438 3.08322 15.8858L3.94588 10.9195L0.292017 7.40201C0.0279575 7.14885 -0.0656941 6.76984 0.0467845 6.42467C0.160711 6.07951 0.462424 5.82826 0.826411 5.77582L5.8754 5.05068L8.13462 0.532052C8.29634 0.205956 8.63233 5.0013e-09 8.99969 5.0013e-09C9.36803 5.0013e-09 9.70256 0.205956 9.86525 0.531575L12.1245 5.0502L17.1744 5.77534C17.5374 5.82731 17.8401 6.07903 17.9521 6.4242C18.067 6.76936 17.9709 7.14838 17.7088 7.40153Z"
+                            fill="#FFAE34" />
+                    </svg>
+                    <svg class="rate-star" width="18" height="17" viewBox="0 0 18 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.7088 7.40153L14.0559 10.9185L14.9181 15.8848C14.9799 16.2424 14.8302 16.6042 14.5334 16.8178C14.3654 16.9384 14.1655 16.9999 13.9656 16.9999C13.8121 16.9999 13.6577 16.9637 13.5162 16.8903L9.00018 14.5456L4.48414 16.8903C4.15877 17.0595 3.76485 17.0309 3.467 16.8188C3.17012 16.6052 3.02095 16.2438 3.08322 15.8858L3.94588 10.9195L0.292017 7.40201C0.0279575 7.14885 -0.0656941 6.76984 0.0467845 6.42467C0.160711 6.07951 0.462424 5.82826 0.826411 5.77582L5.8754 5.05068L8.13462 0.532052C8.29634 0.205956 8.63233 5.0013e-09 8.99969 5.0013e-09C9.36803 5.0013e-09 9.70256 0.205956 9.86525 0.531575L12.1245 5.0502L17.1744 5.77534C17.5374 5.82731 17.8401 6.07903 17.9521 6.4242C18.067 6.76936 17.9709 7.14838 17.7088 7.40153Z"
+                            fill="#FFAE34" />
+                    </svg>
+                </div>
+                <div class="review-footer col-8">
+                    <ul class="user-info d-flex ms-0 ps-0 pt-2 pb-0 mb-0">
+                        <li class="user-info_item name">priscillaGG</li>
+                        <li class="user-info_item adresss">Riverside</li>
+                        <li class="user-info_item job">CA</li>
+                    </ul>
+                    <time datetime="2016-27-10">October 27, 2016</time>
+                </div>
+            </div>
+
+            <div class="col-3 review pt-5 text-start">
+                <h4 class="review_title pb-3">The best priced cars!!</h4>
+                <p class="review_text">
+                    I was very impressed with their service. They're very patient and I will definitely 
+                    continue shopping with Geneva Motors. Thank you for my beautiful car!! I love it
+                </p>
+                <div class="rates d-flex col-8">
+                    <svg class="rate-star" width="18" height="17" viewBox="0 0 18 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.7088 7.40153L14.0559 10.9185L14.9181 15.8848C14.9799 16.2424 14.8302 16.6042 14.5334 16.8178C14.3654 16.9384 14.1655 16.9999 13.9656 16.9999C13.8121 16.9999 13.6577 16.9637 13.5162 16.8903L9.00018 14.5456L4.48414 16.8903C4.15877 17.0595 3.76485 17.0309 3.467 16.8188C3.17012 16.6052 3.02095 16.2438 3.08322 15.8858L3.94588 10.9195L0.292017 7.40201C0.0279575 7.14885 -0.0656941 6.76984 0.0467845 6.42467C0.160711 6.07951 0.462424 5.82826 0.826411 5.77582L5.8754 5.05068L8.13462 0.532052C8.29634 0.205956 8.63233 5.0013e-09 8.99969 5.0013e-09C9.36803 5.0013e-09 9.70256 0.205956 9.86525 0.531575L12.1245 5.0502L17.1744 5.77534C17.5374 5.82731 17.8401 6.07903 17.9521 6.4242C18.067 6.76936 17.9709 7.14838 17.7088 7.40153Z"
+                            fill="#FFAE34" />
+                    </svg>
+                    <svg class="rate-star" width="18" height="17" viewBox="0 0 18 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.7088 7.40153L14.0559 10.9185L14.9181 15.8848C14.9799 16.2424 14.8302 16.6042 14.5334 16.8178C14.3654 16.9384 14.1655 16.9999 13.9656 16.9999C13.8121 16.9999 13.6577 16.9637 13.5162 16.8903L9.00018 14.5456L4.48414 16.8903C4.15877 17.0595 3.76485 17.0309 3.467 16.8188C3.17012 16.6052 3.02095 16.2438 3.08322 15.8858L3.94588 10.9195L0.292017 7.40201C0.0279575 7.14885 -0.0656941 6.76984 0.0467845 6.42467C0.160711 6.07951 0.462424 5.82826 0.826411 5.77582L5.8754 5.05068L8.13462 0.532052C8.29634 0.205956 8.63233 5.0013e-09 8.99969 5.0013e-09C9.36803 5.0013e-09 9.70256 0.205956 9.86525 0.531575L12.1245 5.0502L17.1744 5.77534C17.5374 5.82731 17.8401 6.07903 17.9521 6.4242C18.067 6.76936 17.9709 7.14838 17.7088 7.40153Z"
+                            fill="#FFAE34" />
+                    </svg>
+                    <svg class="rate-star" width="18" height="17" viewBox="0 0 18 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.7088 7.40153L14.0559 10.9185L14.9181 15.8848C14.9799 16.2424 14.8302 16.6042 14.5334 16.8178C14.3654 16.9384 14.1655 16.9999 13.9656 16.9999C13.8121 16.9999 13.6577 16.9637 13.5162 16.8903L9.00018 14.5456L4.48414 16.8903C4.15877 17.0595 3.76485 17.0309 3.467 16.8188C3.17012 16.6052 3.02095 16.2438 3.08322 15.8858L3.94588 10.9195L0.292017 7.40201C0.0279575 7.14885 -0.0656941 6.76984 0.0467845 6.42467C0.160711 6.07951 0.462424 5.82826 0.826411 5.77582L5.8754 5.05068L8.13462 0.532052C8.29634 0.205956 8.63233 5.0013e-09 8.99969 5.0013e-09C9.36803 5.0013e-09 9.70256 0.205956 9.86525 0.531575L12.1245 5.0502L17.1744 5.77534C17.5374 5.82731 17.8401 6.07903 17.9521 6.4242C18.067 6.76936 17.9709 7.14838 17.7088 7.40153Z"
+                            fill="#FFAE34" />
+                    </svg>
+                    <svg class="rate-star" width="18" height="17" viewBox="0 0 18 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.7088 7.40153L14.0559 10.9185L14.9181 15.8848C14.9799 16.2424 14.8302 16.6042 14.5334 16.8178C14.3654 16.9384 14.1655 16.9999 13.9656 16.9999C13.8121 16.9999 13.6577 16.9637 13.5162 16.8903L9.00018 14.5456L4.48414 16.8903C4.15877 17.0595 3.76485 17.0309 3.467 16.8188C3.17012 16.6052 3.02095 16.2438 3.08322 15.8858L3.94588 10.9195L0.292017 7.40201C0.0279575 7.14885 -0.0656941 6.76984 0.0467845 6.42467C0.160711 6.07951 0.462424 5.82826 0.826411 5.77582L5.8754 5.05068L8.13462 0.532052C8.29634 0.205956 8.63233 5.0013e-09 8.99969 5.0013e-09C9.36803 5.0013e-09 9.70256 0.205956 9.86525 0.531575L12.1245 5.0502L17.1744 5.77534C17.5374 5.82731 17.8401 6.07903 17.9521 6.4242C18.067 6.76936 17.9709 7.14838 17.7088 7.40153Z"
+                            fill="#FFAE34" />
+                    </svg>
+                    <svg class="rate-star" width="18" height="17" viewBox="0 0 18 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.7088 7.40153L14.0559 10.9185L14.9181 15.8848C14.9799 16.2424 14.8302 16.6042 14.5334 16.8178C14.3654 16.9384 14.1655 16.9999 13.9656 16.9999C13.8121 16.9999 13.6577 16.9637 13.5162 16.8903L9.00018 14.5456L4.48414 16.8903C4.15877 17.0595 3.76485 17.0309 3.467 16.8188C3.17012 16.6052 3.02095 16.2438 3.08322 15.8858L3.94588 10.9195L0.292017 7.40201C0.0279575 7.14885 -0.0656941 6.76984 0.0467845 6.42467C0.160711 6.07951 0.462424 5.82826 0.826411 5.77582L5.8754 5.05068L8.13462 0.532052C8.29634 0.205956 8.63233 5.0013e-09 8.99969 5.0013e-09C9.36803 5.0013e-09 9.70256 0.205956 9.86525 0.531575L12.1245 5.0502L17.1744 5.77534C17.5374 5.82731 17.8401 6.07903 17.9521 6.4242C18.067 6.76936 17.9709 7.14838 17.7088 7.40153Z"
+                            fill="#FFAE34" />
+                    </svg>
+                </div>
+                <div class="review-footer col-8">
+                    <ul class="user-info d-flex ms-0 ps-0 pt-2 pb-0 mb-0">
+                        <li class="user-info_item name">BGR</li>
+                        <li class="user-info_item adresss">hino hills</li>
+                        <li class="user-info_item job">CA</li>
+                    </ul>
+                    <time datetime="2016-25-10">October 25, 2016</time>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>

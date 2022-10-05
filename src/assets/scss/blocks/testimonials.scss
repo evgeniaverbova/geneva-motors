@@ -1,0 +1,77 @@
+.testimonials {
+    background: linear-gradient(99.7deg, #F7FCFE 8.11%, #EDEDED 75.48%);
+    color: $black;
+
+}
+
+.testimonials-title {
+    font-size: 39px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.review_title{
+    font-size: 16px;
+}
+
+.review_text {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+    line-height: 17px;
+    padding-bottom: 7px;
+}
+
+.rate-star {
+    margin-right: 4px;
+}
+
+.rates {
+    padding-top: 7px;
+    border-top: 1.5px solid #E7E7E7;
+}
+
+.review-footer {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    color: #9A9A9A;
+}
+
+.user-info_item:not(:last-child) {
+    padding-right: 5px;
+    &::after {
+        content: ',';
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 12px;
+        color: #9A9A9A;
+
+    }
+}
+
+.testimonials-inner {
+    position: relative;
+        &:before {
+            content: '“';
+            position: absolute;
+            font-family: 'Montserrat', sans-serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 132px;
+            left: 0;
+            color: #DADADA;
+        }
+
+        &:after {
+            content: '”';
+            position: absolute;
+            font-family: 'Montserrat', sans-serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 132px;
+            right: 0;
+            color: #DADADA;
+        }
+}

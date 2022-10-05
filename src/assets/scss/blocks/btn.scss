@@ -20,8 +20,36 @@
                     }
         }
 
+        &:hover {
+            color: $lightgrey;
+        }
+
         &__large {
             padding: 20px 0;
+        }
+
+        &__sm {
+            font-size: 10px;
+            padding: 3px 6px;
+        }
+
+        &__rounded {
+            border-radius: 100px;
+        }
+
+        &__inventlinks {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 119px;
+            height: 119px;
+            background-color: #484848;
+            border-radius: 50%;
+            transition: .7s linear;
+
+                &:hover {
+                    background-color: rgba(#484848, .7);
+                }
         }
 
         &__bckgraund {
@@ -32,6 +60,13 @@
             height: 50px;
             background-color: rgba($black, .5);
             border-radius: 50%;
+        }
+
+        &__invent {
+            width: 18px;
+            height: 18px;
+            background-color: $inventory;
+
         }
 
         &__form {
@@ -56,5 +91,29 @@
                 &:hover {
                     background-color: darken($lightgrey, 5%);
                 }
+        }
+
+        &__control {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background-color: rgba($black, .9);
+        }
+
+}
+
+.line {
+    margin: 0 5px;
+    display: block;
+    width: 153px;
+    height: 1px;
+    background-color: $white;
+
+        &__grey {
+            background-color: $linegrey;
+            width: 200px;
         }
 }

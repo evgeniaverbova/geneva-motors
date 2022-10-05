@@ -1,0 +1,127 @@
+.inventory_prew {
+    padding-top: 89px;
+}
+
+.inventory-item {
+    display: inline-flex;
+    color: $black;
+    background-color: $white;
+    max-width: 240px;
+    padding: 20px;
+}
+
+.inventory-img {
+    display: block;
+    width: 200px;
+    height: 158px;
+}
+
+.inventory-img-group {
+    position: relative;
+}
+
+.star {
+    display: inline-block;
+    position: absolute;
+    bottom: 13px;
+    right: 2px;
+}
+
+.active {
+    fill: #F65353;
+}
+
+.inventory-title,
+.status {
+    margin-bottom: 0;
+    // font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 17px;
+}
+
+.car-descr, 
+.item-footer-title {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.item-footer-title {
+    font-weight: 300;
+    padding-right: 5px;
+}
+
+.car-descr {
+    font-weight: 600;
+}
+
+.inventory-icon {
+    height: 13px;
+}
+
+.inventory-control-prev {
+    left: 14px;
+}
+
+.inventory-control-next {
+    right: 14px;
+}
+
+.inventory-more {
+    text-transform: uppercase;
+    color: $blue;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    border-bottom: 2px solid $blue;
+
+        &:hover {
+            color: $blue;
+        }
+}
+
+.inventory-links {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+}
+
+.inventory-more_block {
+    margin-bottom: 30px;
+}
+
+.inventory-link_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inventory-link_title {
+    font-weight: 600;
+    font-size: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.inventlink:nth-child(2) {
+    position: relative;
+
+        &:before {
+            content: '';
+            height: 1px;
+            background-color: $danger;
+            width: 140px;
+            position: absolute;
+            left: -150px;
+        }
+
+
+        &:after {
+            content: '';
+            height: 1px;
+            background-color: $danger;
+            width: 140px;
+            position: absolute;
+            right: -150px;
+        }
+}

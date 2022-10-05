@@ -7,6 +7,12 @@ $lightgrey: #F8F8F8;
 $darkgrey: #404040;
 $formborder: #EFEFEF;
 $warning: #BE3939;
+$linegrey: #E4E4E4;
+$inventory:  #828282;
+$blue: #56CCF2;
+
+
+
 
 $spacer: 1rem;
 $spacers: (
@@ -17,4 +23,7 @@ $spacers: (
   4: $spacer * 1.5,
   5: $spacer * 2,
   6: $spacer * 2.5,
+  7: $spacer * 3,
+  8: $spacer * 4,
+
 );

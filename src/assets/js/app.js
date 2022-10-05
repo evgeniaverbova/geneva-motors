@@ -1,10 +1,4 @@
-"use strict"
-// let trueOrFalse = 58 < 18; 
-// console.log(trueOrFalse);
-let doYouLoveMe = false;
-if (doYouLoveMe) {
-    console.log(':)');
-} else{
-    console.log(':(');
-}
-
+const btn = document.getElementById("btn");
+btn.addEventListener("click", function() {
+  this.classList.add("active");
+});
