@@ -28,3 +28,13 @@ $spacers: (
   9: $spacer * 5,
   10: $spacer * 6,
 );
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  menu: 855px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);

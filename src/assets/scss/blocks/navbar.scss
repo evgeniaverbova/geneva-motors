@@ -2,14 +2,6 @@
     background-color: rgba($grey, 0.8);
 }
 
-// .item_home {
-//     width: 50px;
-//     height: 50px;
-//     background-color: rgba($black, .5);
-//     border-radius: 50%;
-// }
-
-
 .home_link {
     padding: 0 0;
     align-items: center;
@@ -25,13 +17,13 @@
         }
 }
 
-.nav-link {
+.nav_link {
     color: $white;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.1em;
     font-weight: 600;
-    padding: 7px 10px !important;
+    padding: 7px 10px;
     border-radius: 20px;
     transition: .5s ease-in-out;
 
@@ -39,21 +31,35 @@
             color: $white;
             background-color: rgba($black, .5);
         }
+
+        @include media-breakpoint-down ('lg') {
+            letter-spacing: normal;
+            padding: 7px 0;
+        }
 }
 
-.nav-item__bfr {
-    display: flex;
-    align-items: center;
+.nav-item {
+    &:not(:first-child){
+        display: flex;
+        align-items: center;
 
-        &::before {
-            content: '';
-            display: block;
-            width: 4px;
-            height: 4px;
-            background-color: $white;
-            border-radius: 50%;
-            margin: 0 11px 0 6px;
+
+            &::before {
+                content: '';
+                display: block;
+                width: 4px;
+                height: 4px;
+                background-color: $white;
+                border-radius: 50%;
+                margin: 0 11px 0 6px;
+            }
+    }
+
+    @include media-breakpoint-down ('menu') {
+        &:first-child {
+            display: none;
         }
+    }
 }
 
 .item_home {
@@ -70,4 +76,39 @@
 
 .logo {
     margin-left: 6.1em;
+
+    @include media-breakpoint-down ('xl') {
+        margin-left: 0;
+    }
+}
+
+.burger-menu {
+    display: block;
+    width: 23px;
+    height: 4px;
+    background: $white;
+    border-radius: 5px;
+    position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: -7px;
+            display: block;
+            width: 23px;
+            height: 4px;
+            background: $white;
+            border-radius: 5px;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 23px;
+            height: 4px;
+            background: $white;
+            border-radius: 5px;
+            bottom: -7px;
+        }
 }
