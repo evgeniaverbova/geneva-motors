@@ -10,12 +10,3 @@
     font-style: normal;
   }
 
-  @font-face {
-    font-family: 'Helvetica Neue regular';
-    src: local('Helvetica Neue Roman'), local('Helvetica-Neue-Roman'),
-        url('/assets/fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'),
-        url('/assets/fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
-        url('/assets/fonts/HelveticaNeueCyr-Roman.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-  }

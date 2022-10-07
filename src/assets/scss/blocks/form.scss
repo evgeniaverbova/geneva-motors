@@ -14,7 +14,8 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    padding: 37px 16px 42px 40px;
+    padding: 37px 40px 42px 40px;
+    // width: 628px;
 }
 
 .form-title {
@@ -35,6 +36,7 @@
 }
 
 .form-row {
+    justify-content: space-evenly;
     padding-bottom: 18px;
 
         &__pb_bigger {
@@ -57,11 +59,11 @@
         }
 
         &__span {
-            display: block;
             height: 1px;
-            width: 14px;
-            background-color: $black;
-            margin: 0 5px;
+            width: 25px;
+            background-color: #000;
+            margin: 0 10px;
+        
         }
 
 }

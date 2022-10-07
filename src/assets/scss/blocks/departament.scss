@@ -1,0 +1,28 @@
+.departament {
+    font-family: 'Montserrat', sans-serif;
+    color: $white;
+    background: linear-gradient(99.7deg, #2D9CDB 8.11%, #0F2566 75.48%);
+}
+
+.departament-title {
+    font-size: 39px;
+    border-bottom: 1px solid rgba($white, .4);
+}
+
+.depart-adress {
+    font-weight: 700;
+}
+
+.right-info-title {
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.right-info-text {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    opacity: .6;
+}

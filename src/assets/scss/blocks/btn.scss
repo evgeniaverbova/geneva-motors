@@ -67,6 +67,11 @@
             height: 18px;
             background-color: $inventory;
 
+                &:hover {
+                    background-color: $inventory;
+
+                }
+
         }
 
         &__form {
@@ -101,6 +106,17 @@
             height: 22px;
             border-radius: 50%;
             background-color: rgba($black, .9);
+        }
+
+        &__blue {
+            // width: 129px;
+            padding: 10px 50px;
+            text-align: center;
+            background-color: $blue;
+                &:hover {
+                    background-color: rgba($blue, .7);
+                }
+
         }
 
 }
