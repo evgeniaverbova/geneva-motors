@@ -1,7 +1,12 @@
 .testimonials {
     background: linear-gradient(99.7deg, #F7FCFE 8.11%, #EDEDED 75.48%);
     color: $black;
+}
 
+.review:last-child {
+    @include media-breakpoint-down ('lg') {
+        display: none;
+    }
 }
 
 .testimonials-title {
@@ -60,7 +65,7 @@
             font-style: italic;
             font-weight: 400;
             font-size: 132px;
-            left: 0;
+            left: -15px;
             color: #DADADA;
         }
 

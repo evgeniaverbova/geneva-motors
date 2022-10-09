@@ -1,4 +1,4 @@
-const btn = document.getElementById("btn");
+let btn = document.getElementById("btn");
 btn.addEventListener("click", function() {
   this.classList.add("active");
 });

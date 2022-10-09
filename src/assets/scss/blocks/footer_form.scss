@@ -7,6 +7,10 @@
     padding: 24px 70px;
     background-color: $white;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+        @include media-breakpoint-down('lg') {
+            padding: 24px;
+        }
 }
 
 .footer-form-header {

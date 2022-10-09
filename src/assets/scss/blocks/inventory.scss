@@ -9,6 +9,12 @@
     max-width: 240px;
     padding: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+        @include media-breakpoint-down('lg') {
+            &:last-child {
+                display: none !important;
+            }
+        }
 }
 
 .inventory-img {
@@ -35,7 +41,6 @@
 .inventory-title,
 .status {
     margin-bottom: 0;
-    // font-family: 'Helvetica Neue', sans-serif;
     font-size: 16px;
     line-height: 17px;
 }
@@ -46,6 +51,10 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     line-height: 19px;
+}
+
+.inventory-footer {
+    border-top: 2px solid $linegrey;
 }
 
 .item-footer-title {
@@ -59,6 +68,17 @@
 
 .inventory-icon {
     height: 13px;
+}
+
+.inventory-control-prev,
+ .inventory-control-next {
+    top: 0;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    bottom: 0;
+    margin: auto 0;
+
 }
 
 .inventory-control-prev {
@@ -83,8 +103,13 @@
 }
 
 .inventory-links {
+    display: flex;
     font-family: 'Montserrat', sans-serif;
     padding-top: 30px;
+
+        @include media-breakpoint-down ('md') {
+            display: none;
+        }
 }
 
 .inventory-more_block {
@@ -102,27 +127,80 @@
     font-size: 21px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    text-align: center;
 }
 
-.inventlink:nth-child(2) {
+.inventory-link_item_second{
+    position: relative;
+}
+
+.line-red {
+    bottom: 55%;
+    height: 1.5px;
+    background-color: #F64C4C;
+    width: 60%;
+    position: absolute;
+    left: -30%;
+
+        @include media-breakpoint-down('lg') {
+            bottom: 50%;
+            width: 40%;
+            left: -20%;
+        }
+}
+
+.line-redd {
+    bottom: 55%;
+    height: 1.5px;
+    background-color: #F64C4C;
+    width: 60%;
+    position: absolute;
+    right: -30%;
+
+        @include media-breakpoint-down('lg') {
+            bottom: 50%;
+            width: 40%;
+            right: -20%;
+        }
+    }
+
+.inventory-link_item:first-child{
+         position: relative;
+
+         &::after {
+            content: '';
+            bottom: 55%;
+            height: 1.5px;
+            background-color: #F64C4C;
+            width: 20%;
+            position: absolute;
+            left: 10%;
+
+                @include media-breakpoint-down('lg') {
+                    bottom: 50%;
+                    left: 0;
+                }
+         }
+
+}
+
+.inventory-link_item:last-child{
     position: relative;
 
-        &:before {
-            content: '';
-            height: 1px;
-            background-color: $danger;
-            width: 140px;
-            position: absolute;
-            left: -150px;
-        }
+    &::after {
+       content: '';
+       bottom: 55%;
+       height: 1.5px;
+       background-color: #F64C4C;
+       width: 20%;
+       position: absolute;
+       right: 10%;
 
-
-        &:after {
-            content: '';
-            height: 1px;
-            background-color: $danger;
-            width: 140px;
-            position: absolute;
-            right: -150px;
+        @include media-breakpoint-down('lg') {
+            bottom: 50%;
+            right: 0;
         }
+    }
+
 }
+
