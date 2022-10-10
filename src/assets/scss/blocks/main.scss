@@ -1,4 +1,9 @@
 .main {
     position: relative;
     padding-bottom: 150px;
+
+        @include media-breakpoint-down('sm') {
+            position: static;
+            padding-bottom: 30px;
+        }
 }

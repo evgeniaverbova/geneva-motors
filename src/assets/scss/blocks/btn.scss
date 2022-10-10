@@ -1,5 +1,5 @@
 .btn {
-    border: none !important;
+    // border: none !important;
     color: $white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -114,7 +114,6 @@
         }
 
         &__blue {
-            // width: 129px;
             padding: 10px 50px;
             text-align: center;
             background-color: $blue;
@@ -122,6 +121,14 @@
                     background-color: rgba($blue, .7);
                 }
 
+        }
+
+        &-straight {
+            border-radius: 0%;
+        }
+
+        &-mobile {
+            font-size: 16px;
         }
 }
 
@@ -132,8 +139,4 @@
     height: 1px;
     background-color: $white;
 
-        &__grey {
-            background-color: $linegrey;
-            width: 200px;
-        }
 }

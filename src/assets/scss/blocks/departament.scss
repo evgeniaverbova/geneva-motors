@@ -2,6 +2,10 @@
     font-family: 'Montserrat', sans-serif;
     color: $white;
     background: linear-gradient(99.7deg, #2D9CDB 8.11%, #0F2566 75.48%);
+
+    @include media-breakpoint-down('sm') {
+        display: none;
+    }
 }
 
 .departament-title {

@@ -19,18 +19,27 @@
 <body>
 
     <header>
-    <nav class="navbar navbar-expand-menu fixed-top py-5">
+    <nav class="navbar navbar-expand-menu py-5">
         <div class="container-xxl">
           <div class="d-flex align-items-center">
           <a class="navbar-brand logo" href="#"><img src="/assets/images/header/logo.png" alt=""></a>
-          <div class="dropdown">
+          <div class="dropdown d-none d-sm-block">
             <button class="btn btn_dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="/assets/images/langs/usa.svg" alt="">
             </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#"></a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <ul class="dropdown-menu dropdown_menu mt-3">
+              <li class="dropdown_li">
+                <a class="dropdown_item d-flex align-items-center" href="#">
+                <img src="/assets/images/languages/france.png" alt="">
+                <span class="dropdown-menu-span ps-2">French</span>
+              </a>
+            </li>
+              <li class="dropdown_li">
+                <a class="dropdown_item d-flex align-items-center" href="#"> 
+                 <img src="/assets/images/languages/spain.png" alt="">
+                <span class="dropdown-menu-span ps-2">Spanish</span>
+              </a>
+            </li>
             </ul>
         </div>
         </div>
@@ -62,7 +71,7 @@
 
     
     <section class="main">
-        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-ride="false">
+        <div id="carouselExampleControls" class="carousel carousel-dark slide d-none d-sm-block" data-ride="false">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="5000">
                     <img src="./assets/images/carousel/carousel.jpg" class="carousel_img d-block w-100" alt="...">
@@ -162,10 +171,67 @@
                 </div>
             </button>
         </div>
-        <div class="form">
-            <div class="mycontainer">
-                <div class="row form-row">
-                    <div class="form-block col-5">
+    
+    <div class="main-mobile d-block d-sm-none">
+        <div class="container-sm">
+            <div class="row main-mobile-row">
+                <a href="tel:909.399.1991" class="btn btn__blue btn-straight btn-mobile col-6 py-5 main-mobile-button">call us</a>
+                <a href="#" class="btn btn-danger btn-mobile btn-straight col-6 py-5 main-mobile-button">Message us</a>
+            </div>
+    
+            <div class="row main-mobile-row">
+            <div class="col-6 main-mobile-item p-0">
+                <a class="main-mobile-link" href=""><img src="/assets/images/main-mobile/image1.png" alt="" class="main-mobile-img"></a>
+                <h5 class="main-mobile-title col-6 text-center">
+                    View inventory
+                </h5>
+            </div>
+            <div class="col-6 main-mobile-item p-0">
+                <a class="main-mobile-link" href=""><img src="/assets/images/main-mobile/image2.png" alt="" class="main-mobile-img"></a>
+                <h5 class="main-mobile-title col-6 text-center">
+                    monster lifted trucks
+                </h5>
+            </div>
+            </div>
+    
+            <div class="row main-mobile-row">
+                <div class="col-6 main-mobile-item p-0">
+                    <a class="main-mobile-link" href=""><img src="/assets/images/main-mobile/image3.png" alt="" class="main-mobile-img"></a>
+                    <h5 class="main-mobile-title col-6 text-center">
+                        best work trucks
+                    </h5>
+                </div>
+                <div class="col-6 main-mobile-item p-0">
+                    <a class="main-mobile-link" href=""><img src="/assets/images/main-mobile/image4.png" alt="" class="main-mobile-img"></a>
+                    <h5 class="main-mobile-title col-8 text-center">
+                        cargo and passenger vans
+                    </h5>
+                </div>
+                </div>
+    
+                
+            <div class="row main-mobile-row">
+                <div class="col-6 main-mobile-item p-0">
+                    <a class="main-mobile-link" href=""><img src="/assets/images/main-mobile/image5.png" alt="" class="main-mobile-img"></a>
+                    <h5 class="main-mobile-title col-8 text-center">
+                        value your trade
+                    </h5>
+                </div>
+                <div class="col-6 main-mobile-item p-0">
+                    <a class="main-mobile-link" href=""><img src="/assets/images/main-mobile/image6.png" alt="" class="main-mobile-img"></a>
+                    <h5 class="main-mobile-title col-10 text-center">
+                        Get pre-approved
+                    </h5>
+                </div>
+                </div>
+    
+        </div>
+    </div>
+    
+        <div class="form container">
+            <div class="form-inner col-12 col-lg-6">
+                <div class="row form-row align-items-center">
+                    <div class="form-block col-12 col-sm-5">
                         <h3 class="form-title">Make</h3>
                         <div class="dropdown">
                             <button
@@ -180,7 +246,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="form-block col-5">
+                    <div class="form-block col-12 col-sm-5">
                         <h3 class="form-title">Model</h3>
                         <div class="dropdown">
                             <button
@@ -204,27 +270,27 @@
                 </div>
                 <!--/row-->
     
-                <div class="row form-row form-row__pb_bigger">
-                    <div class="form-block col-5">
+                <div class="row form-row form-row__pb_bigger align-items-center">
+                    <div class="form-block col-12 col-sm-5">
                         <h3 class="form-title">Years</h3>
                         <div class="d-flex align-items-center col-12">
                             <input class="col-5 form-input text-center" placeholder="from" type="text">
-                            <span class="form-input__span"></span>
+                            <div class="form-input__block col-2"></div>
                             <input class="col-5 form-input text-center" placeholder="to" type="text">
                         </div>
                     </div>
-                    <div class="form-block col-5">
+                    <div class="form-block col-12 col-sm-5">
                         <h3 class="form-title">Price</h3>
                         <div class="d-flex align-items-center col-12">
                             <input class="col-5 form-input text-center" placeholder="from" type="text">
-                            <span class="form-input__span"></span>
+                            <div class="form-input__block col-2"></div>
                             <input class="col-5 form-input text-center" placeholder="to" type="text">
                         </div>
                     </div>
                 </div>
                 <!--/row-->
                 <div class="row justify-content-center">
-                    <button class="col-5 btn__large btn btn-warning mt-3">Search</button>
+                    <button class="col-12 col-sm-5 btn__large btn btn-warning mt-3">Search</button>
                 </div>
             </div>
             <!--container-->
@@ -232,8 +298,8 @@
         <!--form-->
     </section>
     <section class="inventory_prew container-md">
-        <div class="row justify-content-evenly mb-7 gx-6">
-            <div class="col-4 col-lg-3 inventory-item d-flex flex-column">
+        <div class="inventory-row row justify-content-evenly align-items-center mb-7 gx-md-6">
+            <div class="col-8 col-sm-6 col-md-4 col-lg-3 inventory-item d-flex flex-column">
                     <div class="inventory-img-group pb-3">
                         <img class="inventory-img" src="/assets/images/inventory/item1.png" alt="">
                         <button class="btn star">
@@ -284,7 +350,7 @@
                     </div>
             </div>
             <!--item1-->
-            <div class="col-4 col-lg-3 inventory-item d-flex flex-column">
+            <div class="col-8 col-sm-6 col-md-4 col-lg-3 inventory-item d-flex flex-column">
                 <div class="inventory-img-group pb-3">
                     <img class="inventory-img" src="/assets/images/inventory/item2.png" alt="">
                     <button class="btn star">
@@ -336,7 +402,7 @@
                 </div>
             </div>
             <!--item2-->
-            <div class="col-4 col-lg-3 inventory-item d-flex flex-column">
+            <div class="col-8 col-sm-6 col-md-4 col-lg-3 inventory-item d-none d-md-flex flex-column">
                 <div class="inventory-img-group pb-3">
                     <img class="inventory-img" src="/assets/images/inventory/item1.png" alt="">
                     <button class="btn star">
@@ -388,7 +454,7 @@
                 </div>
             </div>
             <!--item3-->
-            <div class="col-4 col-lg-3 inventory-item d-flex flex-column">
+            <div class="col-8 col-sm-6 col-md-4 col-lg-3 inventory-item d-flex flex-column">
                 <div class="inventory-img-group pb-3">
                     <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -475,7 +541,7 @@
             <!--item4-->
         </div>
         <!-- /row1-->
-        <div class="row justify-content-evenly mb-7 gx-6">
+        <div class="d-none d-md-flex row justify-content-evenly mb-7 gx-6">
             <div class="col-4 col-lg-3 inventory-item d-flex flex-column">
                 <div class="inventory-img-group pb-3">
                     <img class="inventory-img" src="/assets/images/inventory/item1.png" alt="">
@@ -680,7 +746,6 @@
                 <p class="status pt-1">Used</p>
                 <h4 class="inventory-title">GMC Yukon XL SLT</h4>
                 <a href="" class="col-4 btn btn__sm btn__rounded btn-danger pricetag align-self-end mt-2 mb-3">$45, 550</a>
-                <span class="line line__grey line__lg mx-0"></span>
                 <div class="inventory-footer d-flex justify-content-between pt-3">
                     <ul class="item-footer-list ms-0 ps-0">
                         <li class="d-flex align-items-center">
@@ -720,7 +785,7 @@
             <!--item4-->
         </div>
         <!--/row2-->
-        <div class="row justify-content-evenly mb-7 gx-6">
+        <div class="d-none d-md-flex row justify-content-evenly mb-7 gx-6">
             <div class="col-4 col-lg-3 inventory-item d-flex flex-column">
                     <div class="inventory-img-group pb-3">
                         <img class="inventory-img" src="/assets/images/inventory/item1.png" alt="">
@@ -911,7 +976,6 @@
     
                         </button>
                     </div>
-    
                     <button class="btn star">
                         <svg id="btn" class="star-svg" width="25" height="24" viewBox="0 0 25 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -962,14 +1026,14 @@
             </div>
             <!--item4-->
         </div>
-        <!-- /row3-->
+        <!--/row3-->
         <div class="inventory-more_block col-12 text-center">
             <a href="#" class="inventory-more pb-2">view all INVENTORY</a>
         </div> 
     
         <div class="row inventory-links align-items-center justify-content-center pb-8">
-            <div class="col-4 inventory-link_item">
-                <h5 class="inventory-link_title pb-3 col-10 col-lg-12">View Inventory</h5>
+            <div class="col-4 col-lg-3 inventory-link_item">
+                <h5 class="inventory-link_title pb-3 col-10 col-lg-10">View Inventory</h5>
                 <a href="#" class="btn__inventlinks inventlink">
                     <svg width="51" height="33" viewBox="0 0 51 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -977,11 +1041,11 @@
                             fill="white" />
                     </svg>
                 </a>
-                <p class="inventory-link_text text-center col-12 col-md-9 col-lg-7 pt-5">View the selection of vehicles available today.</p>
+                <p class="inventory-link_text text-center col-11 col-lg-9 pt-5">View the selection of vehicles available today.</p>
             </div>
     
-            <div class="col-4 inventory-link_item inventory-link_item_second">
-                <h5 class="inventory-link_title pb-3 col-7 col-lg-12">Lifted Trucks</h5>
+            <div class="col-4 col-lg-3 inventory-link_item inventory-link_item_second">
+                <h5 class="inventory-link_title pb-3 col-7 col-lg-10">Lifted Trucks</h5>
                 <span class="line-red"></span>
                 <a href="#" class="btn__inventlinks inventlink">
                     <svg width="42" height="50" viewBox="0 0 42 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -991,10 +1055,10 @@
                     </svg>
                 </a>
                 <span class="line-redd"></span>
-                <p class="inventory-link_text text-center col-9 col-lg-6 pt-5">Find Great Deals on Lifted Trucks.</p>
+                <p class="inventory-link_text text-center col-10 col-lg-7 pt-5">Find Great Deals on Lifted Trucks.</p>
             </div>
     
-            <div class="col-4 inventory-link_item">
+            <div class="col-4 col-lg-3 inventory-link_item">
                 <h5 class="inventory-link_title pb-3 col-10 col-lg-12">work trucks/vans</h5>
                 <a href="#" class="btn__inventlinks inventlink">
                     <svg width="48" height="47" viewBox="0 0 48 47" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1003,7 +1067,7 @@
                             fill="white" />
                     </svg>
                 </a>
-                <p class="inventory-link_text text-center col-12 col-md-9 col-lg-7 pt-5">Find Great Deals on Work Trucks and Vans.</p>
+                <p class="inventory-link_text text-center col-11 col-lg-9 pt-5">Find Great Deals on Work Trucks and Vans.</p>
             </div>
         </div>
     </section>
@@ -1011,7 +1075,7 @@
         <div class="container text-center">
                 <h4 class="testimonials-title pt-6 col-12">Testimonials</h4>
                 <div class="row justify-content-evenly testimonials-inner">
-                <div class="col-5 col-lg-3 review pt-5 text-start">
+                <div class="col-9 col-sm-5 col-lg-3 review pt-5 text-start">
                     <h4 class="review_title pb-3">Car buying experience</h4>
                     <p class="review_text">
                         Came here looking for a particular car. They had our car in stock,
@@ -1061,7 +1125,7 @@
                     </div>
                 </div>
     
-                <div class="col-5 col-lg-3 review pt-5 text-start">
+                <div class="col-5 col-lg-3 d-sm-block d-none review pt-5 text-start">
                     <h4 class="review_title pb-3">Great Cars and Service!!</h4>
                     <p class="review_text">
                         I bought a Mercedes Benz C class from Geneva Motors and 
@@ -1162,9 +1226,9 @@
         </div>
     </section>
     <section class="location container-lg pt-5 pb-7">
-        <h4 class="location-title col-12 text-center pb-4">Geneva Motors Used Car Dealer in Montclair</h4>
-        <div class="row justify-content-evenly">
-            <div class="col-6 location-txt pt-4">
+        <h4 class="location-title col-7 col-sm-12 text-center pb-4">Geneva Motors Used Car Dealer in Montclair</h4>
+        <div class="row justify-content-evenly location-row">
+            <div class="col-10 col-sm-6 location-txt pt-4">
                 <p>
                     We Are Your Los Angeles Used & Pre-Owned Dealer Near Ontario, Santa Ana, Corona, San Diego, Anaheim,
                     Irvine, Glendale, Newport Beach, Long Beach, San Bernardino, Huntington Beach, Moreno Valley,
@@ -1181,12 +1245,12 @@
                     latest comment and dealership reviews.
                 </p>
             </div>
-            <div class="col-4 map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.18884092352!2d-117.69246788478463!3d34.06467308060255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c333cb4b485fc5%3A0xc2487401bf66cbe9!2zMTA0NDAgQ2VudHJhbCBBdmUsIE1vbnRjbGFpciwgQ0EgOTE3NjMsINCh0L_QvtC70YPRh9C10L3RliDQqNGC0LDRgtC4INCQ0LzQtdGA0LjQutC4!5e0!3m2!1suk!2sua!4v1665054037478!5m2!1suk!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col-10 col-md-5 col-sm-4 map">
+                <iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.18884092352!2d-117.69246788478463!3d34.06467308060255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c333cb4b485fc5%3A0xc2487401bf66cbe9!2zMTA0NDAgQ2VudHJhbCBBdmUsIE1vbnRjbGFpciwgQ0EgOTE3NjMsINCh0L_QvtC70YPRh9C10L3RliDQqNGC0LDRgtC4INCQ0LzQtdGA0LjQutC4!5e0!3m2!1suk!2sua!4v1665054037478!5m2!1suk!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
-    <section class="departament mt-7 pt-8 pb-5">
+    <section class="departament d-none d-sm-block mt-7 pt-8 pb-5">
         <div class="container-lg">
             <div class="row justify-content-between">
                 <div class="col-6 col-lg-7">
@@ -1270,7 +1334,7 @@
         </div>
         </div>
     </section>
-    <section class="contactus pt-10 pb-8">
+    <section class="contactus d-none d-sm-block pt-10 pb-8">
         <div class="container d-flex justify-content-center">
             <div class="footer-form col-12 col-lg-7">
                 <h4 class="footer-form-header pb-8">Contact Us</h4>
@@ -1327,7 +1391,7 @@
     </section>
 
 
-    <footer class="container d-none justify-content-between align-items-center py-6">
+    <footer class="container d-none d-menu-flex justify-content-between align-items-center py-6">
         <a href="#"><img class="footer-img" src="/assets/images/footer/image1.jpg" alt=""></a> 
         <a href="#"><img class="footer-img" src="/assets/images/footer/image2.jpg" alt=""></a>  
         <a href="#"><img class="footer-img" src="/assets/images/footer/image3.jpg" alt=""></a>  

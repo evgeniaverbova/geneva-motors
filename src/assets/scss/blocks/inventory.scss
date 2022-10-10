@@ -1,5 +1,15 @@
 .inventory_prew {
     padding-top: 89px;
+
+        @include media-breakpoint-down('sm') {
+            padding-top: 30px;
+        }
+}
+
+.inventory-row {
+        @include media-breakpoint-down('md') {
+            flex-direction: column;
+        }
 }
 
 .inventory-item {
@@ -14,6 +24,11 @@
             &:last-child {
                 display: none !important;
             }
+        }
+
+        @include media-breakpoint-down('md') {
+            margin-bottom: 30px;
+            max-width: unset;
         }
 }
 
@@ -30,7 +45,7 @@
 .star {
     display: inline-block;
     position: absolute;
-    bottom: 13px;
+    bottom: 17px;
     right: 2px;
 }
 
@@ -130,7 +145,7 @@
     text-align: center;
 }
 
-.inventory-link_item_second{
+.inventory-link_item_second {
     position: relative;
 }
 
@@ -138,11 +153,11 @@
     bottom: 55%;
     height: 1.5px;
     background-color: #F64C4C;
-    width: 60%;
+    width: 46%;
     position: absolute;
-    left: -30%;
+    left: -23%;
 
-        @include media-breakpoint-down('lg') {
+        @include media-breakpoint-down('xl') {
             bottom: 50%;
             width: 40%;
             left: -20%;
@@ -153,18 +168,18 @@
     bottom: 55%;
     height: 1.5px;
     background-color: #F64C4C;
-    width: 60%;
+    width: 46%;
     position: absolute;
-    right: -30%;
+    right: -23%;
 
-        @include media-breakpoint-down('lg') {
+        @include media-breakpoint-down('xl') {
             bottom: 50%;
             width: 40%;
             right: -20%;
         }
     }
 
-.inventory-link_item:first-child{
+.inventory-link_item:first-child {
          position: relative;
 
          &::after {
@@ -172,19 +187,19 @@
             bottom: 55%;
             height: 1.5px;
             background-color: #F64C4C;
-            width: 20%;
+            width: 26%;
             position: absolute;
-            left: 10%;
+            left: -3%;
 
-                @include media-breakpoint-down('lg') {
+                @include media-breakpoint-down('xl') {
                     bottom: 50%;
-                    left: 0;
+
                 }
          }
 
 }
 
-.inventory-link_item:last-child{
+.inventory-link_item:last-child {
     position: relative;
 
     &::after {
@@ -192,13 +207,12 @@
        bottom: 55%;
        height: 1.5px;
        background-color: #F64C4C;
-       width: 20%;
+       width: 26%;
        position: absolute;
-       right: 10%;
+       right: -3%;
 
-        @include media-breakpoint-down('lg') {
+        @include media-breakpoint-down('xl') {
             bottom: 50%;
-            right: 0;
         }
     }
 

@@ -67,6 +67,9 @@
             font-size: 132px;
             left: -15px;
             color: #DADADA;
+                @include media-breakpoint-down('sm') {
+                    display: none;
+                }
         }
 
         &:after {
@@ -78,5 +81,8 @@
             font-size: 132px;
             right: 0;
             color: #DADADA;
+                @include media-breakpoint-down('sm') {
+                    display: none;
+                }
         }
 }

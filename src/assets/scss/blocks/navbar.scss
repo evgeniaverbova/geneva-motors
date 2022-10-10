@@ -1,5 +1,15 @@
 .navbar {
     background-color: rgba($grey, 0.8);
+    position: fixed;
+    top: 0; 
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+        @include media-breakpoint-down('sm') {
+            position: static;
+            background-color: rgba($grey, 0.9);
+        }
 }
 
 .home_link {
@@ -115,5 +125,17 @@
             background: $white;
             border-radius: 5px;
             bottom: -7px;
+        }
+}
+
+.dropdown_menu {
+    background: $grey!important;
+}
+
+.dropdown_li {
+    padding: 7px 10px;
+
+        &:hover {
+            background: rgba($darkgrey, 0.7);
         }
 }
