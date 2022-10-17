@@ -1,5 +1,5 @@
 .btn {
-    // border: none !important;
+    border: none !important;
     color: $white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -29,8 +29,13 @@
             color: $lightgrey;
         }
 
-        &__large {
+        &__main {
             padding: 20px 0;
+           width: 254px;
+        }
+
+        &__srch {
+            padding: 18px 93px;
         }
 
         &__sm {
@@ -80,16 +85,17 @@
         }
 
         &__form {
+            position: relative;
             color: $darkgrey;
             background: $lightgrey;
             border: 1px solid $formborder;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 17px;
             transition: .2s linear;
+            width: 100%;
+            padding: 20px 25px;
 
                 &::after {
+                    position: absolute;
+                    right: 25px;
                     content: '';
                     width: 0;
                     height: 0;

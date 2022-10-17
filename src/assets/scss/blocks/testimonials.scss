@@ -57,7 +57,13 @@
 }
 
 .testimonials-inner {
+    justify-content: space-evenly;
     position: relative;
+
+        @include media-breakpoint-down('menu') {
+            justify-content: center;
+        }
+
         &:before {
             content: '“';
             position: absolute;
@@ -67,8 +73,13 @@
             font-size: 132px;
             left: -15px;
             color: #DADADA;
+            
                 @include media-breakpoint-down('sm') {
                     display: none;
+                }
+
+                @include media-breakpoint-down('menu') {
+                    left: -4px;
                 }
         }
 
@@ -81,8 +92,13 @@
             font-size: 132px;
             right: 0;
             color: #DADADA;
+
                 @include media-breakpoint-down('sm') {
                     display: none;
+                }
+
+                @include media-breakpoint-down('menu') {
+                   right: 12px;
                 }
         }
 }

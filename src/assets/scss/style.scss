@@ -42,8 +42,7 @@
 @import "boots/bootstrap-reboot.scss";
 
 html {
-    font-size: 62.5%;
-
+    border: none !important;
 }
 
 body {
@@ -55,7 +54,6 @@ body {
 *:before,
 *:after {
     box-sizing: border-box;
-    // color: #ffff;
     color: inherit;
     font-size: inherit;
 
@@ -96,6 +94,10 @@ input {
     border: none
 }
 
+.dropdown-menu {
+    overflow: auto;
+}
+
 
 /* Blocks */
 @import "blocks/main";
@@ -111,6 +113,7 @@ input {
 @import "blocks/footer_form";
 @import "blocks/footer";
 @import "blocks/main-mobile";
+@import "blocks/social";
 
 
 

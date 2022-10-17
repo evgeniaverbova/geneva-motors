@@ -12,6 +12,7 @@
     text-transform: uppercase;
     line-height: 46px;
     padding-bottom: 36px;
+    text-shadow: 0px 2px 4px $black;
 
         @include media-breakpoint-down('lg') {
             font-size: 40px;
@@ -48,13 +49,27 @@
 
 .carousel-control {
     bottom: 17px;
+    display: block;
+    height: 60px;
+    width: 60px;
+    margin: auto;
 
         &-prev {
-            left: 39px;
+            left: 135px;
+
+             @include media-breakpoint-down('md') {
+                left: 90px;
+             }
         }
 
         &-next {
-            right: 40px;
+            right: 143px;
+
+             @include media-breakpoint-down('md') {
+                right: 100px;
+            }
         }
 
 }
+
+

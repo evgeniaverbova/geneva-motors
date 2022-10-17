@@ -4,12 +4,12 @@
 }
 
 .footer-form {
-    padding: 24px 70px;
+    padding: 24px 78px;
     background-color: $white;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 
-        @include media-breakpoint-down('lg') {
-            padding: 24px;
+        @include media-breakpoint-down('md') {
+           padding: 24px 55px;
         }
 }
 
@@ -29,15 +29,23 @@
 .footer-form-input {
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
     font-size: 16px;
     border-bottom: 2px solid #ECECEC;
 }
 
 .footer-form-txtarea {
     margin: 0;
-    padding: 0;
+    padding: 6px 7px;
     cursor: pointer;
     border: 2px solid #ECECEC;
     height: 90px;
+}
+
+.footer-form_item {
+    width: 220px;
+    box-sizing: content-box;
+
+         @include media-breakpoint-down('md') {
+            width: 170px;
+        }
 }

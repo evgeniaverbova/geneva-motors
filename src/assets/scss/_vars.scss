@@ -27,6 +27,8 @@ $spacers: (
   8: $spacer * 4,
   9: $spacer * 5,
   10: $spacer * 6,
+  11: $spacer * .7,
+  12: $spacer * 5.5,
 );
 
 $grid-gutter-width: 1.5rem;
@@ -41,7 +43,8 @@ $gutters: (
 ); 
 
 $grid-breakpoints: (
-  xs: 0,
+  xxs: 0,
+  xs: 510px,
   sm: 576px,
   md: 768px,
   menu: 855px,
